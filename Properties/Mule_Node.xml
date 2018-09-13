@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Environments>
+<Nodes>
+
+<PRD>
+  <nd env="PRD1" name="PHDVMULE01" internalHTTP="http://PHDVMULE01:8090"  internalHTTPS="https://PHDVMULE01:8091" externalHTTPS="https://PHDVMSGW01:8908" />
+  <nd env="PRD2" name="PHDVMULE02" internalHTTP="http://PHDVMULE02:8090"  internalHTTPS="https://PHDVMULE02:8091" externalHTTPS="https://PHDVMSGW02:8908" />
+</PRD>
+
+<PPD>
+  <nd env="PPD1" name="OHDVMULE01" internalHTTP="http://OHDVMULE01:8090" internalHTTPS="https://OHDVMULE01:8091" externalHTTPS="https://OHDVMSGW01:8908" />
+</PPD>
+
+<QA5>
+  <nd env="QA5" name="SI05AWMULE01" internalHTTP="http://192.168.92.77:8090" internalHTTPS="https://192.168.92.77:8091" externalHTTPS="https://192.168.92.36:8908" />
+</QA5>
+
+<UAT4>
+  <nd env="UAT41" name="UAWVMULE41" internalHTTP="http://192.168.92.47:8090" internalHTTPS="https://192.168.92.47:8091" externalHTTPS="https://192.168.92.38:8908" />
+</UAT4>
+
+<QA4>
+  <nd env="QA41" name="SAWVMULE41" internalHTTP="http://192.168.92.109:8090" internalHTTPS="https://192.168.92.109:8091" externalHTTPS="https://192.168.92.32:8908" />
+</QA4>
+
+<DEV4>
+  <nd env="DEV41" name="DAWVMULE41" internalHTTP="http://192.168.92.117:8090" internalHTTPS="https://192.168.92.117:8091" externalHTTPS="https://192.168.92.25:8908" />
+</DEV4>
+
+
+</Nodes>
+</Environments>
